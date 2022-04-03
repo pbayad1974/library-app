@@ -1,0 +1,10 @@
+Importing other ejs file in layout or other file
+<%- include('../partials/header.ejs') %>
+// partials is a folder in views which has common layout for other pages
+User _ to denote if a file is partial file
+partials folder in views is for the main layout, you can create individual partial file respective folder like authors
+
+Anchor tags are used to create links, buttons are to interact with in form. Eg: Cancel link in form will be anchor tag, submit will be button
+
+Use req.query for get methods because its passed in url
+Use req.body to get info from a form submitted using post method
